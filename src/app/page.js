@@ -27,7 +27,7 @@ const DashboardHero = () => {
                 left: 0,
                 width: "100%",
                 height: "100%",
-                backgroundImage: "url('${basePath}/foto/steins-gate-vrata-shtaynera-4349.jpg')",
+                backgroundImage: "url('/foto/steins-gate-vrata-shtaynera-4349.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 zIndex: 1,
@@ -69,7 +69,7 @@ const DashboardHero = () => {
 
               <Grid item xs={12} md={6} sx={{ display: "flex", justifyContent: "center" }}>
                 <Avatar
-                  src="{$basePath}/foto/image.png"
+                  src="/foto/image.png"
                   alt="Anugrah Muhammad Arafah"
                   sx={{ width: 300, height: 300, borderRadius: "50%", boxShadow: 3}}
                 />
@@ -150,7 +150,7 @@ const DashboardHero = () => {
                 <CardMedia
                   component="img"
                   height="160"
-                  image="${basePath}/window.svg" // Ganti dengan path gambar proyek
+                  image="/window.svg" // Ganti dengan path gambar proyek
                   alt="Project 1"
                 />
                 <CardContent>
@@ -175,7 +175,7 @@ const DashboardHero = () => {
                 <CardMedia
                   component="img"
                   height="160"
-                  image="${basePath}/file.svg"
+                  image="/file.svg"
                   alt="Project 2"
                 />
                 <CardContent>
@@ -201,7 +201,7 @@ const DashboardHero = () => {
                   component="img"
                   height={100}
                   width={100}
-                  image="${basePath}/globe.svg"
+                  image="/globe.svg"
                   alt="Project 3"
                 />
                 <CardContent>
