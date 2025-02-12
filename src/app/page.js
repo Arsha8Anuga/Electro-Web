@@ -27,7 +27,7 @@ const DashboardHero = () => {
                 left: 0,
                 width: "100%",
                 height: "100%",
-                backgroundImage: "url('/foto/steins-gate-vrata-shtaynera-4349.jpg')",
+                backgroundImage: "url('/Electro-Web/foto/steins-gate-vrata-shtaynera-4349.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 zIndex: 1,
@@ -69,7 +69,7 @@ const DashboardHero = () => {
 
               <Grid item xs={12} md={6} sx={{ display: "flex", justifyContent: "center" }}>
                 <Avatar
-                  src="/foto/image.png"
+                  src="/Electro-Web/foto/image.png"
                   alt="Anugrah Muhammad Arafah"
                   sx={{ width: 300, height: 300, borderRadius: "50%", boxShadow: 3}}
                 />
@@ -147,14 +147,14 @@ const DashboardHero = () => {
               <CardMedia
                 component="img"
                 height="160"
-                image="/foto/tugas_1.png"
+                image="/Electro-Web/foto/tugas_1.png"
                 alt="Tugas 1"
                 sx={{ borderRadius: 2 }}
               />
               <CardMedia
                 component="img"
                 height="160"
-                image="/foto/tugas_2.png"
+                image="/Electro-Web/foto/tugas_2.png"
                 alt="Tugas 2"
                 sx={{ borderRadius: 2 }}
               />
