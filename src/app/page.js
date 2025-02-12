@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import { AppBar, Toolbar, Typography, Box, Button, Container, Grid, Avatar, Card, CardMedia, CardContent, CardActions } from "@mui/material";
+import {Typography, Box, Button, Container, Grid, Avatar, Card, CardMedia, CardContent, CardActions } from "@mui/material";
 
 const DashboardHero = () => {
   return (
@@ -27,7 +27,7 @@ const DashboardHero = () => {
                 left: 0,
                 width: "100%",
                 height: "100%",
-                backgroundImage: "url('/Electro-Web/foto/steins-gate-vrata-shtaynera-4349.jpg')",
+                backgroundImage: "url('/foto/steins-gate-vrata-shtaynera-4349.jpg')",
                 backgroundSize: "cover",
                 backgroundPosition: "center",
                 zIndex: 1,
@@ -69,7 +69,7 @@ const DashboardHero = () => {
 
               <Grid item xs={12} md={6} sx={{ display: "flex", justifyContent: "center" }}>
                 <Avatar
-                  src="/Electro-Web/foto/image.png"
+                  src="/foto/image.png"
                   alt="Anugrah Muhammad Arafah"
                   sx={{ width: 300, height: 300, borderRadius: "50%", boxShadow: 3}}
                 />
@@ -139,96 +139,32 @@ const DashboardHero = () => {
           }}
         >
           <Typography variant="h5" sx={{ fontWeight: "bold", mb: 3, color: "#333" }}>
-            Newest Projects
+            Tugas Elektronika 1
           </Typography>
-
-          {/* Grid untuk Menyusun Card */}
-          <Grid container spacing={3} justifyContent="center">
-            {/* Card 1 */}
-            <Grid item xs={12} sm={6} md={4}>
-              <Card sx={{ boxShadow: 3, borderRadius: 3 }}>
-                <CardMedia
-                  component="img"
-                  height="160"
-                  image="/Electro-Web/window.svg" // Ganti dengan path gambar proyek
-                  alt="Project 1"
-                />
-                <CardContent>
-                  <Typography variant="h6" sx={{ fontWeight: "bold" }}>
-                    Project Name 1
-                  </Typography>
-                  <Typography variant="body2" sx={{ color: "#666" }}>
-                    Short description of the project goes here.
-                  </Typography>
-                </CardContent>
-                <CardActions>
-                  <Button size="small" color="primary">
-                    View Project
-                  </Button>
-                </CardActions>
-              </Card>
-            </Grid>
-
-            {/* Card 2 */}
-            <Grid item xs={12} sm={6} md={4}>
-              <Card sx={{ boxShadow: 3, borderRadius: 3 }}>
-                <CardMedia
-                  component="img"
-                  height="160"
-                  image="/Electro-Web/file.svg"
-                  alt="Project 2"
-                />
-                <CardContent>
-                  <Typography variant="h6" sx={{ fontWeight: "bold" }}>
-                    Project Name 2
-                  </Typography>
-                  <Typography variant="body2" sx={{ color: "#666" }}>
-                    Short description of the project goes here.
-                  </Typography>
-                </CardContent>
-                <CardActions>
-                  <Button size="small" color="primary">
-                    View Project
-                  </Button>
-                </CardActions>
-              </Card>
-            </Grid>
-
-            {/* Card 3 */}
-            <Grid item xs={12} sm={6} md={4}>
-              <Card sx={{ boxShadow: 3, borderRadius: 3 }}>
-                <CardMedia
-                  component="img"
-                  height={100}
-                  width={100}
-                  image="/Electro-Web/globe.svg"
-                  alt="Project 3"
-                />
-                <CardContent>
-                  <Typography variant="h6" sx={{ fontWeight: "bold" }}>
-                    Project Name 3
-                  </Typography>
-                  <Typography variant="body2" sx={{ color: "#666" }}>
-                    Short description of the project goes here.
-                  </Typography>
-                </CardContent>
-                <CardActions>
-                  <Button size="small" color="primary">
-                    View Project
-                  </Button>
-                </CardActions>
-              </Card>
-            </Grid>
-          </Grid>
-
-          {/* Tombol View More */}
-          <Button
-            variant="contained"
-            color="primary"
-            sx={{ mt: 4, px: 4, py: 1.5, fontSize: "1rem" }}
-          >
-            View More
-          </Button>
+          
+          <Card sx={{ boxShadow: 3, borderRadius: 3, p: 2, display: "flex", flexDirection: "column", alignItems: "center" }}>
+            <Box display="flex" flexDirection="column" alignItems="center" gap={2}>
+              <CardMedia
+                component="img"
+                height="160"
+                image="/foto/tugas_1.png"
+                alt="Tugas 1"
+                sx={{ borderRadius: 2 }}
+              />
+              <CardMedia
+                component="img"
+                height="160"
+                image="/foto/tugas_2.png"
+                alt="Tugas 2"
+                sx={{ borderRadius: 2 }}
+              />
+            </Box>
+            <CardContent>
+              <Typography variant="body2" sx={{ color: "#666" }}>
+                Foto tugas elektronika 1.
+              </Typography>
+            </CardContent>
+          </Card>
         </Container>
 
         <br/><br/>
