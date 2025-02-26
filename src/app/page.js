@@ -218,7 +218,7 @@ const DashboardHero = () => {
             
             <CardContent>
               <Typography variant="body2" sx={{ color: "#666" }}>
-                Foto tugas elektronika 1.
+                Foto tugas elektronika 2.
               </Typography>
             </CardContent>
           </Card>
