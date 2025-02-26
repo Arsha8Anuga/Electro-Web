@@ -168,6 +168,63 @@ const DashboardHero = () => {
         </Container>
 
         <br/><br/>
+
+        <Container
+          maxWidth="md"
+          sx={{
+            mt: 8,
+            textAlign: "center",
+            p: 4,
+            bgcolor: "#fff",
+            borderRadius: 3,
+            boxShadow: 2,
+          }}
+        >
+          <Typography variant="h5" sx={{ fontWeight: "bold", mb: 3, color: "#333" }}>
+            Tugas Elektronika 2
+          </Typography>
+          
+          <Card sx={{ boxShadow: 3, borderRadius: 3, p: 2, display: "flex", flexDirection: "column", alignItems: "center" }}>
+            <Box display="flex" flexDirection="column" alignItems="center" gap={2}>
+              <CardMedia
+                component="img"
+                height="160"
+                image="/Electro-Web/foto/tugas_2_1.png"
+                alt="Tugas 1 1"
+                sx={{ borderRadius: 2 }}
+              />
+              <CardMedia
+                component="img"
+                height="160"
+                image="/Electro-Web/foto/tugas_2_2.png"
+                alt="Tugas 2 2"
+                sx={{ borderRadius: 2 }}
+              />
+              <CardMedia
+                component="img"
+                height="160"
+                image="/Electro-Web/foto/tugas_2_3.png"
+                alt="Tugas 2 3"
+                sx={{ borderRadius: 2 }}
+              />
+              <CardMedia
+                component="img"
+                height="160"
+                image="/Electro-Web/foto/tugas_2_4.png"
+                alt="Tugas 2 4"
+                sx={{ borderRadius: 2 }}
+              />
+            </Box>
+            
+            <CardContent>
+              <Typography variant="body2" sx={{ color: "#666" }}>
+                Foto tugas elektronika 1.
+              </Typography>
+            </CardContent>
+          </Card>
+        </Container>
+
+        <br/><br/>
     </Box>
   );
 };
