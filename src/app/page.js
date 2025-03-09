@@ -247,21 +247,21 @@ const DashboardHero = () => {
               <CardMedia
                 component="img"
                 height="160"
-                image="/Electro-Web/foto/tugas_3_1.jpg"
+                image="/Electro-Web/foto/Tugas_3_1.jpg"
                 alt="Tugas 2 2"
                 sx={{ borderRadius: 2 }}
               />
               <CardMedia
                 component="img"
                 height="160"
-                image="/Electro-Web/foto/tugas_3_2.jpg"
+                image="/Electro-Web/foto/Tugas_3_2.jpg"
                 alt="Tugas 2 3"
                 sx={{ borderRadius: 2 }}
               />
               <CardMedia
                 component="img"
                 height="160"
-                image="/Electro-Web/foto/tugas_3_3.jpg"
+                image="/Electro-Web/foto/Tugas_3_3.jpg"
                 alt="Tugas 2 4"
                 sx={{ borderRadius: 2 }}
               />
