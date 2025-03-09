@@ -225,6 +225,57 @@ const DashboardHero = () => {
         </Container>
 
         <br/><br/>
+
+        <Container
+          maxWidth="md"
+          sx={{
+            mt: 8,
+            textAlign: "center",
+            p: 4,
+            bgcolor: "#fff",
+            borderRadius: 3,
+            boxShadow: 2,
+          }}
+        >
+          <Typography variant="h5" sx={{ fontWeight: "bold", mb: 3, color: "#333" }}>
+            Tugas Elektronika 3
+          </Typography>
+          
+          <Card sx={{ boxShadow: 3, borderRadius: 3, p: 2, display: "flex", flexDirection: "column", alignItems: "center" }}>
+            <Box display="flex" flexDirection="column" alignItems="center" gap={2}>
+             
+              <CardMedia
+                component="img"
+                height="160"
+                image="/Electro-Web/foto/tugas_3_1.jpg"
+                alt="Tugas 2 2"
+                sx={{ borderRadius: 2 }}
+              />
+              <CardMedia
+                component="img"
+                height="160"
+                image="/Electro-Web/foto/tugas_3_2.jpg"
+                alt="Tugas 2 3"
+                sx={{ borderRadius: 2 }}
+              />
+              <CardMedia
+                component="img"
+                height="160"
+                image="/Electro-Web/foto/tugas_3_3.jpg"
+                alt="Tugas 2 4"
+                sx={{ borderRadius: 2 }}
+              />
+            </Box>
+            
+            <CardContent>
+              <Typography variant="body2" sx={{ color: "#666" }}>
+                Foto tugas elektronika 3.
+              </Typography>
+            </CardContent>
+          </Card>
+        </Container>
+
+        <br/><br/>
     </Box>
   );
 };
